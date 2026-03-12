@@ -27,34 +27,28 @@ input.onButtonPressed(Button.A, function () {
     neopixelStrip.show()
     basic.pause(2000)
 
-
     // turning off green traffic light
     neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Black))
     neopixelStrip.show()
-
 
     // turning on yellow light
     neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.Yellow))
     neopixelStrip.show()
     basic.pause(2000)
 
-
     // turning off yellow light
     neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.Black))
     neopixelStrip.show()
-
 
     // turning on red light
     neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Red))
     neopixelStrip.show()
     basic.pause(2000)
 
-
     // turning off red light
     neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Black))
     neopixelStrip.show()
 })
-
 
 // resetting the traffic lights
 basic.clearScreen()
